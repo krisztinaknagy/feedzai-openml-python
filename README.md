@@ -50,7 +50,6 @@ mvn clean install
 ```
 
 ## Environment
-
 To use these providers you need to have Python 3.6 with the following packages installed in your environment:
 
     * numpy 
@@ -76,3 +75,7 @@ that is being used in this repository's continuous integration. See the [travis-
 on how to use it.
 The image's [Dockerfile](https://github.com/feedzai/oracle-jep-miniconda/blob/master/Dockerfile) also provides an example 
 of the environment installation.
+
+
+## Deploying to Pulse
+Copy the .jar file to the ```pulse/pulse-server/ext/<app-name>``` folder and restart Pulse.
